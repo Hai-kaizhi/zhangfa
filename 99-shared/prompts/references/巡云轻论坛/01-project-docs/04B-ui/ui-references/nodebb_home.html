@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>NodeBB - Modern Forum Software</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="NodeBB Forum Software - The Modern Discussion Platform">
+	<meta name="author" content="NodeBB Inc.">
+	<meta name="keywords" content="nodebb, node.js, forum, discussion, community, software, hosting">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/16x16.png">
+	<link rel="shortcut icon" href="/images/icons/favicon.ico">
+
+	<!-- Google Fonts: Inter & Poppins -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap 5 CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- our css-->
+	<link href="/css/style.css" rel="stylesheet">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-V0P62EB8Q6"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-V0P62EB8Q6');
+	</script>
+</head>
+<body class="p-0 py-5 p-lg-5">
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg bg-body fixed-top shadow-sm">
+		<div class="container-lg">
+			<a class="navbar-brand py-2" href="/">
+				<img src="/images/brand/nodebb-logo.svg" style="height: 36px; width: auto;" alt="NodeBB Logo" />
+			</a>
+			<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+				<ul class="nav nav-underline gap-4 flex-column flex-lg-row align-items-end align-items-lg-center mt-4 mt-lg-0">
+					<li class="nav-item">
+						<a href="/" class="nav-link active text-reset fw-semibold">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a href="/product" class="nav-link text-reset fw-semibold">PRODUCT</a>
+					</li>
+					<li class="nav-item">
+						<a href="/pricing" class="nav-link text-reset fw-semibold">PRICING</a>
+					</li>
+					<li class="nav-item">
+						<a href="/services" class="nav-link text-reset fw-semibold">SERVICES</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" target="_blank" role="button" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle text-reset fw-semibold">RESOURCES</a>
+						<ul class="dropdown-menu dropdown-menu-end border-0 shadow p-1">
+							<li><a href="https://community.nodebb.org/" class="dropdown-item rounded-1" target="_blank">Community</a></li>
+							<li><a href="https://try.nodebb.org/" class="dropdown-item rounded-1" target="_blank">Demo Site</a></li>
+							<li><a href="https://community.nodebb.org/category/28/answers" class="dropdown-item rounded-1" target="_blank">Answers</a></li>
+							<li><a href="https://docs.nodebb.org/" class="dropdown-item rounded-1" target="_blank">Documentation</a></li>
+							<li><a href="/bounty" class="dropdown-item rounded-1">Bug Bounty</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="/contact" class="btn btn-warning rounded-pill">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://manage.nodebb.org/register" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Start Free Trial</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Page Content -->
+	<div class="container-lg mt-5">
+		<!-- Home -->
+		<div id="home-tab-pane">
+			<div class="row pt-2 pt-lg-5">
+				<div class="col-12 col-md-6 d-flex flex-column gap-4">
+					<h1 class="display-1 fw-bold fs-1">
+						A better forum platform for the modern web.
+					</h1>
+					<h2 class="text-secondary fs-4">
+						NodeBB is next generation community forum software. It's powerful, mobile-ready and easy to use.
+					</h2>
+					<div>
+						<p>Looking for a way to engage your followers, away from the noise and chaos of today’s “social” sites?</p><p><strong>NodeBB</strong> takes the spirit and energy of the great online forum communities of old, and empowers it with powerful, mobile-ready and easy to use software.&nbsp;</p><p>Establish your own platform for <em>real</em> conversations. Start today!</p>
+					</div>
+					<div class="d-flex gap-2">
+						<a href="https://manage.nodebb.org/register" class="btn btn-primary text-nowrap"><i class="fa-solid fa-rocket"></i> Start Free Trial</a>
+						<a href="#features-section" class="btn btn-ghost text-nowrap">Learn More -></a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 d-none d-lg-block" style="height: 470px;">
+					<div class="screenshot-stack position-relative w-100 h-100">
+						<a href="images/desktop-view.png" target="_blank"><img src="images/desktop-view.png" alt="Desktop Screenshot" class="screenshot position-absolute z-1 zoom desktop shadow rounded-2" style="top:0; right: 20px; width:500px;"></a>
+						<a href="images/tablet-view.png" target="_blank"><img src="images/tablet-view.png" alt="Tablet Screenshot" class="screenshot position-absolute z-2 zoom tablet shadow rounded-2" style="top: 80px; right: 100px; width:250px;"></a>
+						<a href="images/mobile-view.png" target="_blank"><img src="images/mobile-view.png" alt="Mobile Screenshot" class="screenshot position-absolute z-3 zoom mobile shadow rounded-2" style="top:150px; right: 0px; width: 160px;"></a>
+					</div>
+				</div>
+			</div>
+
+			<hr class="my-5"/>
+
+			<!-- company logos -->
+			<div class="py-5">
+				<h4 class="fw-semibold mb-5">NodeBB powers thousands of community forums. These are just a few:</h4>
+				<div class="brand-images d-flex align-items-center gap-4 justify-content-between flex-wrap mb-5">
+					<a class="btn btn-ghost" href="https://forum.qt.io/" target="_blank"><img height="40" src="./images/brand/qt-logo.png" alt="QT Forums"></a>
+
+					<a class="btn btn-ghost" href="https://forum.vivaldi.net/" target="_blank"><img height="40" src="./images/brand/vivaldi-logo.svg" alt="Vivaldi Forums"></a>
+
+					<a class="btn btn-ghost" href="https://forums.opera.com/" target="_blank"><img height="40" src="./images/brand/opera.png" alt="Opera Forums"></a>
+
+					<a class="btn btn-ghost fs-5 fw-semibold" href="https://developers.maxon.net/forum/" target="_blank"><img height="40" src="./images/brand/maxon.webp" alt="Maxon Developers Forum"> MAXON DEVELOPERS</a>
+
+					<a class="btn btn-ghost" href="https://what.thedailywtf.com/" target="_blank"><img height="40" src="./images/brand/wtdwtf.png" alt="What the Daily WTF?"></a>
+
+					<a class="btn btn-ghost" href="https://community.windy.com/" target="_blank"><img height="40" src="./images/brand/logo-full-windy-community-gray-v3.svg" alt="Windy Community Forums"></a>
+
+					<a class="btn btn-ghost" href="https://forum.netgate.com/" target="_blank"><img height="40" src="./images/brand/netgate.png" alt="Netgate Forums"></a>
+
+					<a class="btn btn-ghost" href="https://community.notepad-plus-plus.org/" target="_blank"><img height="60" src="./images/brand/notepad++.svg" alt="Notepad++ Forums"></a>
+
+					<a class="btn btn-ghost" href="https://moz.com/community/q/" target="_blank"><img height="40" src="./images/brand/moz.png" alt="Moz Forums"></a>
+
+					<a class="btn btn-ghost" href="https://www.c-plusplus.net/forum/" target="_blank"><img height="60" src="./images/brand/c++net.png" alt="C++ Community"></a>
+
+					<a class="btn btn-ghost" href="https://www.axisandallies.org/forums/" target="_blank"><img height="40" src="./images/brand/axisnallies.png" alt="Axis & Allies.org"></a>
+
+					<a class="btn btn-ghost fs-5 fw-semibold" href="https://community.sketchucation.com/" target="_blank"><img height="40" src="./images/brand/sketchucation.png" alt="Sketchucation"> sketchucation</a>
+
+					<a class="btn btn-ghost fs-5 fw-semibold" href="https://forum.cloudron.io/" target="_blank"><img height="40" src="./images/brand/cloudron.png" alt="cloudron"> Cloudron</a>
+
+					<a class="btn btn-ghost" href="https://foro.hardlimit.com/" target="_blank"><img height="40" src="./images/brand/hardlimit.png" alt="Hardlimit"></a>
+
+					<a class="btn btn-ghost" href="https://forum.onlinesoccermanager.com/" target="_blank"><img height="40" src="./images/brand/osm.png" alt="Online Soccer Manager"></a>
+
+					<a class="btn btn-ghost" href="https://forums.theshow.com/" target="_blank"><img height="40" style="filter: invert(1)" src="./images/brand/theshow.png" alt="The Show"></a>
+
+					<a class="btn btn-ghost fs-5 fw-semibold" href="https://ironheart.co.uk/forum/" target="_blank"><img height="40" style="filter: invert(1)" src="./images/brand/ironheart.png" alt="Iron Heart Forums"> ironheart.co.uk</a>
+
+					<a class="btn btn-ghost" href="https://meatgistics.waltons.com/" target="_blank"><img height="40" src="./images/brand/waltons.png" alt="Meatgisttics Waltons Forum"></a>
+
+					<a class="btn btn-ghost" href="https://www.holidaycheck.de/foren/" target="_blank"><img height="60" src="./images/brand/holiday-check.png" alt="HolidayCheck Forums"></a>
+
+					<a class="btn btn-ghost" href="https://ninjaclub.ninjabet.it/" target="_blank"><img height="40" src="./images/brand/ninjabet.png" alt="NinjaBet Forums"></a>
+
+					<a class="btn btn-ghost fs-5 fw-semibold" href="https://basenjiforums.com/" target="_blank"><img height="40" src="./images/brand/basenjiforums.jpg" alt="Basenji Forums"> Basenji Forums</a>
+
+					<a class="btn btn-ghost" href="https://yesilkartforum.com/forum/" target="_blank"><img height="40" src="./images/brand/yesilkart.webp" alt="Yesil Kart Forum"></a>
+				</div>
+
+				<p class="fs-5 text-secondary">Want to see more or submit your own? <a href="https://community.nodebb.org/who-is-using-nodebb" target="_blank">Visit our showcase</a>.</p>
+			</div>
+
+			<hr class="my-5"/>
+
+			<!-- Give your audience a platform with NodeBB -->
+			<div class="py-5 container">
+				<h4 class="fw-semibold mb-4 fs-2">Give your audience a platform with NodeBB</h4>
+				<h4 class="mb-5">Select the forum option that works best for you:</h5>
+				<div class="row row-cols-1 row-cols-lg-3 g-5">
+					<div class="col">
+						<div class="card border-0 shadow h-100">
+							<div class="card-body d-flex flex-column p-4">
+								<h5 class="card-title fw-semibold"><i class="fa-brands fa-github fa-2x align-middle text-secondary"></i>&nbsp; Open Source</h5>
+								<div class="flex-grow-1">
+									<p class="text-secondary">Self-starters and developers, nodejs enthusiasts</p>
+									<p class="text-secondary">For the tech savvy DIY pro, install and maintain NodeBB on your own server.</p>
+								</div>
+
+								<div class="d-flex justify-content-center mb-2">
+									<a href="https://github.com/NodeBB/NodeBB" class="btn btn-sm btn-secondary w-100 fw-semibold" target="_blank">Go to GitHub Repo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0 shadow h-100">
+							<div class="card-body d-flex flex-column p-4">
+								<h5 class="card-title fw-semibold"><i class="fa-solid fa-arrow-pointer fa-2x align-middle text-secondary"></i>&nbsp; One Click Forum Hosting</h5>
+								<div class="flex-grow-1">
+									<p class="text-secondary">Growing businesses and groups</p>
+									<p class="text-secondary">Get your forum going right away with our monthly hosting plans.</p>
+								</div>
+
+								<div class="d-flex justify-content-center mb-2">
+									<a href="https://manage.nodebb.org/register" class="btn btn-sm btn-primary w-100 fw-semibold">Try for Free</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card border-0 shadow h-100">
+							<div class="card-body d-flex flex-column p-4">
+								<h5 class="card-title fw-semibold"><i class="fa-solid fa-building fa-2x align-middle text-secondary"></i>&nbsp; Enterprise</h5>
+								<div class="flex-grow-1">
+									<p class="text-secondary">Custom-built solutions for large corporations</p>
+									<p class="text-secondary">A tailored, high-performance forum for enterprise customers that integrates with your existing infrastructure.</p>
+								</div>
+
+								<div class="d-flex justify-content-center mb-2">
+									<a href="/contact" class="btn btn-sm btn-warning w-100 fw-semibold">Get in Touch</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- quotes carousel -->
+			<hr class="my-5">
+
+			<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="min-height:320px;">
+				<div class="carousel-indicators d-none d-lg-flex">
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+					<button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5" aria-label="Slide 6"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="15000">
+						<p class="fs-3"><span class="fw-semibold">“When we decided it was time to revamp our community we contemplated several possible solutions. We opted for NodeBB, and we couldn't be happier. </span><span>Numbers confirm that our user engagement skyrocketed. There was not a single comment from our users that would say that the old forums were better which, I think, speaks for itself.”</span></p>
+						<div class="d-flex gap-4 align-items-center">
+							<img src="./images/quotes/arthur-opera.png" class="d-block" height="48" alt="Arthur Matczak, Opera Profile Picture">
+							<span>Arthur Matczak <span class="fw-semibold">Opera, Software Engineer</span></span>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="15000">
+						<p class="fs-3"><span class="fw-semibold">“The NodeBB support team is available whenever we run into trouble. NodeBB is the most attractive piece of open source forum software we’ve found. </span><span>The migration process was surprisingly simple. The UI is great, our users really like it, and the performance is excellent.”</span></p>
+						<div class="d-flex gap-4 align-items-center">
+							<img src="./images/quotes/jim-netgate.png" class="d-block" height="48" alt="Jim Thompson, Netgate Profile Picture">
+							<span>Jim Thompson <span class="fw-semibold">Netgate, CTO</span></span>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="15000">
+						<p class="fs-3"><span class="">"The customer forum for our Redshift product plays a huge role in connecting our team with our customers. We chose to upgrade our existing forum and needed some assistance. </span><span class="fw-semibold">NodeBB responded with a reasonable quote and a plan for a surprisingly painless migration process. Not only did they help us meet our ambitious deadlines but they were quick to respond to challenges and provide solutions."</span></p>
+						<div class="d-flex gap-4 align-items-center">
+							<img src="./images/quotes/christina-maxon.png" class="d-block" height="48" alt="Christina Patchell, Profile Picture">
+							<span>Christina Patchell, <span class="fw-semibold">Maxon</span></span>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="15000">
+						<p class="fs-3"><span class="">"We have considerable prior experience with several other well-known forums, and NodeBB beats all of them for our needs, including safety and security for minors, simplicity of use, reliability for academic records, stability under heavy load, and richness of features sufficient to even engage media-saturated teens.</span><span class="fw-semibold">Schools are not big money customers, but the NodeBB team always treats us like we are important to them."</span></p>
+						<div class="d-flex gap-4 align-items-center">
+							<img src="./images/quotes/tps-potter.png" class="d-block" height="48" alt="TPS Potter School Picture">
+							<span>Jeff Gilbert, <span class="fw-semibold">The Potter's School</span></span>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="15000">
+						<p class="fs-3"><span class="">"An important part of Walton's recent growth in the retail market has been the creation of our informational website, <a href="http://meatgistics.com/" target="_blank" rel="noopener" tabindex="0">meatgistics.com</a>. As the community has grown, so has the number of features we have offered them to keep them interested and engaged.   None of that would have been possible without a huge amount of assistance from  NodeBB.</span><span class="fw-semibold">Through the last 6 years of working with NodeBB they have always done a great job supporting us!"</span></p>
+						<div class="d-flex gap-4 align-items-center">
+							<img src="./images/quotes/waltons-headshot.png" class="d-block" height="48" alt="TPS Potter School Picture">
+							<span>Jonathon Tremblay, <span class="fw-semibold">Walton's/Meatgistics</span></span>
+						</div>
+					</div>
+					<div class="carousel-item" data-bs-interval="15000">
+						<p class="fs-3"><span class="fw-semibold">“Working with the fantastic team at NodeBB (highly recommended, by the way), we quickly spun up a new Q&amp;A using our existing database. We actually saw an increase in traffic, nearly starting at day one.  </span><span>In fact, in the two months after the migration, organic Google traffic to Q&amp;A pages was up nearly 19%. This was definitely a delightful migration.”</span></p>
+						<div class="d-flex gap-4 align-items-center">
+							<img src="./images/quotes/cyrus-moz.png" class="d-block" height="48" alt="Jim Thompson, Netgate Profile Picture">
+							<span>Cyrus Shephard, <span class="fw-semibold">MOZ</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr class="my-5" id="features-section"/>
+			<!-- Features -->
+			<div class="py-5 container">
+				<div class="row row-cols-1 row-cols-lg-4 g-5">
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-mobile-screen"></i> Responsive</div>
+							<div class="text-secondary">NodeBB is mobile-first and was developed to be a perfect experience no matter what device it's viewed on. It looks great on all devices or screen resolutions.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-language"></i> Internationalization</div>
+							<div class="text-secondary">NodeBB has built-in multilingual support to provide a localized user interface and <a href="https://explore.transifex.com/nodebb/nodebb/" target="_blank"><strong>translatable content.</strong></a></div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-brands fa-searchengin"></i> SEO</div>
+							<div class="text-secondary">Human-readable URLs, semantic HTML with embedded microdata, and many more SEO features.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-user-lock"></i> GDPR compliance</div>
+							<div class="text-secondary">NodeBB was the first forum software to comply with the European Union’s General Data Protection Regulation (GDPR).</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-earth-americas"></i> Connect to the world</div>
+							<div class="text-secondary">Activating native ActivityPub support allows your users to share with others in the wider fediverse, including Mastodon, and more.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-rss"></i> Realtime Streaming</div>
+							<div class="text-secondary">See the conversation as it unfolds with realtime streaming of topics, posts and notifications.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-right-to-bracket"></i> Single Sign-on</div>
+							<div class="text-secondary">SSO makes it easy for visitors to become members on your NodeBB site. Registration has never been so easy.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-paintbrush"></i> Theming</div>
+							<div class="text-secondary">Change the look and feel of your NodeBB site. You can use themes contributed by others or create your own to match your existing website!</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-regular fa-message"></i> Chat</div>
+							<div class="text-secondary">Built in chat and instant messaging support that enables your users to interact with each other.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-object-group"></i> Choose your view</div>
+							<div class="text-secondary">Flexible design options including a social feed view let you tailor your forum interaction to the needs of your community.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-tags"></i> Tags</div>
+							<div class="text-secondary">Users can tag topics, adding an extra dimension beyond categorization and making it easy to find related content. Tags can be followed to get notified about new topics.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-plug"></i> Plugins</div>
+							<div class="text-secondary">We have many plugins to choose from that will enhance your community's user experience.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-share-nodes"></i> Social Integration</div>
+							<div class="text-secondary">NodeBB makes it simple to share content from your community to Facebook, Google, and Twitter which in return brings more visitors to your community.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-key"></i> Roles & Permissions</div>
+							<div class="text-secondary">Control fine-grained, role-based permissions that can be assigned per category. Assign multiple roles to individual users. This is perfect for your private community.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-solid fa-headset"></i> Support</div>
+							<div class="text-secondary">Ask other users for advice on features, customization and running a community in our <a href="//community.nodebb.org/" title="Community Forums"><strong>community forums</strong></a>.</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column gap-2">
+							<div class="fs-5 fw-semibold"><i class="fa-brands fa-dev"></i> Services</div>
+							<div class="text-secondary">We offer professional services from migration, integration to theming and community management. Let us help you jump start your community today!</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="my-5"/>
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="d-flex flex-column flex-md-row gap-5 justify-content-between mb-5 flex-wrap">
+				<div class="d-flex flex-column">
+					<h5 class="fw-bold">Get Started</h5>
+					<ul class="list-unstyled">
+						<li><a href="/product" class="link-secondary text-decoration-none">PRODUCT</a></li>
+						<li><a href="/pricing" class="link-secondary text-decoration-none">PRICING</a></li>
+						<li><a href="/services" class="link-secondary text-decoration-none">SERVICES</a></li>
+					</ul>
+				</div>
+				<div class="d-flex flex-column">
+					<h5 class="fw-bold">Resources</h5>
+					<ul class="list-unstyled">
+						<li><a href="https://community.nodebb.org/" class="link-secondary text-decoration-none" target="_blank">COMMUNITY</a></li>
+						<li><a href="https://try.nodebb.org/" class="link-secondary text-decoration-none" target="_blank">DEMO SITE</a></li>
+						<li><a href="https://community.nodebb.org/category/28/answers" class="link-secondary text-decoration-none" target="_blank">ANSWERS</a></li>
+						<li><a href="https://docs.nodebb.org" class="link-secondary text-decoration-none" target="_blank">DOCUMENTATION</a></li>
+						<li><a href="/bounty" class="link-secondary text-decoration-none">BUG BOUNTY</a></li>
+					</ul>
+				</div>
+				<div class="d-flex flex-column">
+					<h5 class="fw-bold">Company</h5>
+					<ul class="list-unstyled">
+						<li><a href="/about" class="link-secondary text-decoration-none">ABOUT</a></li>
+						<li><a href="/blog" class="link-secondary text-decoration-none">BLOG</a></li>
+						<li><a href="/contact" class="link-secondary text-decoration-none">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="d-flex flex-column">
+					<a href="https://manage.nodebb.org/register" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Start Free Trial</a>
+					<div class="d-flex gap-3 mt-3 justify-content-between px-2">
+						<a title="NodeBB Github Page" href="https://github.com/nodebb/nodebb" class="link-secondary text-decoration-none"><i class="fab fa-github"></i></a>
+						<a title="NodeBB Twitter Page" href="https://twitter.com/nodebb" class="link-secondary text-decoration-none"><i class="fab fa-twitter"></i></a>
+						<a title="NodeBB Mastodon Page" href="https://fosstodon.org/@nodebb" class="link-secondary text-decoration-none"><i class="fa-brands fa-mastodon"></i></a>
+						<a title="NodeBB Facebook Page" href="https://www.facebook.com/NodeBB" class="link-secondary text-decoration-none"><i class="fab fa-facebook"></i></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="d-flex flex-wrap justify-content-between gap-5 small">
+				<span class="text-secondary text-nowrap">©2026 NodeBB, Inc. — Made in Canada with <i class="fa-solid fa-heart text-danger"></i>.</span>
+				<div class="d-flex gap-3">
+					<a href="/tos" class="link-secondary text-nowrap text-decoration-none">Terms of Service</a>
+					<a href="/privacy" class="link-secondary text-nowrap text-decoration-none">Privacy Policy</a>
+					<a href="/gdpr" class="link-secondary text-nowrap text-decoration-none">GDPR</a>
+					<a href="/dmca" class="link-secondary text-nowrap text-decoration-none">DMCA</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Bootstrap 5 JS Bundle (includes Popper) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

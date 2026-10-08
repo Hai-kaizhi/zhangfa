@@ -1,0 +1,1322 @@
+{
+  "sha": "a50bcd709718b6d0e72cb7744a67220caed8f62a",
+  "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/a50bcd709718b6d0e72cb7744a67220caed8f62a",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "270508c1666e915ce9e8397753d67ed545bf46a6",
+      "size": 102,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/270508c1666e915ce9e8397753d67ed545bf46a6"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eb08487976d231c21cab1ad1a18df23f90b0d82",
+      "size": 75,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/2eb08487976d231c21cab1ad1a18df23f90b0d82"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93152b6bd77e4a6deecb56b2a1ac39179835de3",
+      "size": 537,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/c93152b6bd77e4a6deecb56b2a1ac39179835de3"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0da2045c66dd39b107fbec5153b18a2177abb35",
+      "size": 178,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f0da2045c66dd39b107fbec5153b18a2177abb35"
+    },
+    {
+      "path": "languages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4f4d4347a0c6624c812a129db733a8582c2e5d6",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/d4f4d4347a0c6624c812a129db733a8582c2e5d6"
+    },
+    {
+      "path": "languages/persona.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+      "size": 2,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/9e26dfeeb6e641a33dae4961196235bdb965b21b"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9ff219be41c43f1d2254a1a2694ce8bf66fa9dc",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/a9ff219be41c43f1d2254a1a2694ce8bf66fa9dc"
+    },
+    {
+      "path": "lib/controllers.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afb38c953cad59138180752dde2f9c3be3c8d92f",
+      "size": 777,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/afb38c953cad59138180752dde2f9c3be3c8d92f"
+    },
+    {
+      "path": "library.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6969a0516345024096d8c44cd3f0c709db4801a",
+      "size": 2399,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f6969a0516345024096d8c44cd3f0c709db4801a"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3912954945d27726468755ffd2a870a3c7356543",
+      "size": 33931,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/3912954945d27726468755ffd2a870a3c7356543"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3adea6e6fef01344f3e4c381f3ba3a5c688c4076",
+      "size": 1077,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/3adea6e6fef01344f3e4c381f3ba3a5c688c4076"
+    },
+    {
+      "path": "plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4b63c4789601bb190de2f5b7e1287b0e2ec26b8",
+      "size": 722,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/e4b63c4789601bb190de2f5b7e1287b0e2ec26b8"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46563cba01c73e5db39afe4b8044c1974ecae952",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/46563cba01c73e5db39afe4b8044c1974ecae952"
+    },
+    {
+      "path": "public/admin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7eb58d601e5cdc9f7fb251b58c5d15309fb1386",
+      "size": 300,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/a7eb58d601e5cdc9f7fb251b58c5d15309fb1386"
+    },
+    {
+      "path": "public/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f078a43d39f1a92f4dab8e2513f52c07568f8fd2",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/f078a43d39f1a92f4dab8e2513f52c07568f8fd2"
+    },
+    {
+      "path": "public/modules/autohidingnavbar.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f598210fcfec758a079c56a7e92bce0ba1347e48",
+      "size": 6544,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f598210fcfec758a079c56a7e92bce0ba1347e48"
+    },
+    {
+      "path": "public/modules/mobile-menu.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27e4032788a4de19acde19b776306f84cdfb052",
+      "size": 4892,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/e27e4032788a4de19acde19b776306f84cdfb052"
+    },
+    {
+      "path": "public/modules/taskbar.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7e07c932f3a527dcff66367dffd07238b48a73",
+      "size": 1836,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/4b7e07c932f3a527dcff66367dffd07238b48a73"
+    },
+    {
+      "path": "public/persona.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a865dbd7644390efb7c3c96a3a4b27ab29c21c8f",
+      "size": 7099,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/a865dbd7644390efb7c3c96a3a4b27ab29c21c8f"
+    },
+    {
+      "path": "public/settings.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2359ab588b10c8564f83a680c3535cd7b6c12f",
+      "size": 1482,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/5e2359ab588b10c8564f83a680c3535cd7b6c12f"
+    },
+    {
+      "path": "screenshot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7904fc18a88d49d48e0e0941eba5eb7037c6fa2",
+      "size": 39770,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f7904fc18a88d49d48e0e0941eba5eb7037c6fa2"
+    },
+    {
+      "path": "scss",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "775e6cf0f7d5225615948121bf2aa47ad66c64d7",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/775e6cf0f7d5225615948121bf2aa47ad66c64d7"
+    },
+    {
+      "path": "scss/account.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "097d4d1de55c9e2ff542bc40d1a373f22a4c35a6",
+      "size": 2523,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/097d4d1de55c9e2ff542bc40d1a373f22a4c35a6"
+    },
+    {
+      "path": "scss/category.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe37127c5f7de0a3163e8c8d2c5bd8a5c67aa8fe",
+      "size": 92,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/fe37127c5f7de0a3163e8c8d2c5bd8a5c67aa8fe"
+    },
+    {
+      "path": "scss/chats.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f37e51f70a799cf5d17f250a93b000e2c5474d1",
+      "size": 235,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/8f37e51f70a799cf5d17f250a93b000e2c5474d1"
+    },
+    {
+      "path": "scss/footer.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e3eae3ecae5754e57beac976f489cdf2135bf38",
+      "size": 328,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/9e3eae3ecae5754e57beac976f489cdf2135bf38"
+    },
+    {
+      "path": "scss/header.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0fef2d5e42d7fd3ccd621fc0ee6eea125ded14d",
+      "size": 3647,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/b0fef2d5e42d7fd3ccd621fc0ee6eea125ded14d"
+    },
+    {
+      "path": "scss/keyframes.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ce020bea17398082aeb4c1c3b4eccdd1fe365f",
+      "size": 2628,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/61ce020bea17398082aeb4c1c3b4eccdd1fe365f"
+    },
+    {
+      "path": "scss/mixins.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "251eacae040d52b0efc12f766e57e6d0c7fbd46b",
+      "size": 2753,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/251eacae040d52b0efc12f766e57e6d0c7fbd46b"
+    },
+    {
+      "path": "scss/mobile.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5597f7dd90852e0ae66d2e844734bce362d7256e",
+      "size": 3245,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/5597f7dd90852e0ae66d2e844734bce362d7256e"
+    },
+    {
+      "path": "scss/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89692ca54d79d6f44b5f84a24a6c1e7ce0949801",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/89692ca54d79d6f44b5f84a24a6c1e7ce0949801"
+    },
+    {
+      "path": "scss/modules/composer.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "836da1da9e38e123105ecb0f3897ef4622fdb8d8",
+      "size": 508,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/836da1da9e38e123105ecb0f3897ef4622fdb8d8"
+    },
+    {
+      "path": "scss/modules/fab.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4bb825c5e39f1596acacce47e50ae62f35a48f",
+      "size": 478,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/9e4bb825c5e39f1596acacce47e50ae62f35a48f"
+    },
+    {
+      "path": "scss/modules/morph.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de238f93ec5d59beeec36751ade53fbd9fab5b0",
+      "size": 4898,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/3de238f93ec5d59beeec36751ade53fbd9fab5b0"
+    },
+    {
+      "path": "scss/modules/necro-post.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5739692edd5d1659a66989c45926b16f35fc03ce",
+      "size": 124,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/5739692edd5d1659a66989c45926b16f35fc03ce"
+    },
+    {
+      "path": "scss/modules/nprogress.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ceb4cdfb1775bc997ac5041c8a7c69c9ad447f3",
+      "size": 1421,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/9ceb4cdfb1775bc997ac5041c8a7c69c9ad447f3"
+    },
+    {
+      "path": "scss/modules/taskbar.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a55714dd8a58b24d5427fba0e627ee4eb125dfb",
+      "size": 2728,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/4a55714dd8a58b24d5427fba0e627ee4eb125dfb"
+    },
+    {
+      "path": "scss/modules/topics-list.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d8e25a3b4f173c3b6defa52afa007b2e0565d1b",
+      "size": 775,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/2d8e25a3b4f173c3b6defa52afa007b2e0565d1b"
+    },
+    {
+      "path": "scss/modules/user-menu.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbaa904995182f0fb60b5db86a2f6b1460b8d4d0",
+      "size": 209,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/dbaa904995182f0fb60b5db86a2f6b1460b8d4d0"
+    },
+    {
+      "path": "scss/modules/usercard.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b1d8dfa6fccc8edda4f7f4b532b09d86308d39c",
+      "size": 251,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/1b1d8dfa6fccc8edda4f7f4b532b09d86308d39c"
+    },
+    {
+      "path": "scss/noscript.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c1a1cf98bb7ce3646e85fd547c8e0cfefddd8d0",
+      "size": 988,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/6c1a1cf98bb7ce3646e85fd547c8e0cfefddd8d0"
+    },
+    {
+      "path": "scss/overrides.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0c1f1c038ddaa9d80cc468e1fda03e55ec72ba",
+      "size": 1176,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/7c0c1f1c038ddaa9d80cc468e1fda03e55ec72ba"
+    },
+    {
+      "path": "scss/persona.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0281d453322722969b4d361bc6218fe9b6667cdf",
+      "size": 590,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/0281d453322722969b4d361bc6218fe9b6667cdf"
+    },
+    {
+      "path": "scss/posts_list.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f71adc91bc67133c8da5f3f2a4f91194029b76",
+      "size": 1484,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/97f71adc91bc67133c8da5f3f2a4f91194029b76"
+    },
+    {
+      "path": "scss/search.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11c066c3e6c5ff79aa54a4abe11936a4929661c8",
+      "size": 473,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/11c066c3e6c5ff79aa54a4abe11936a4929661c8"
+    },
+    {
+      "path": "scss/skins.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ef29c45b73a4ad020411638228ac9110b4adc95",
+      "size": 1331,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/7ef29c45b73a4ad020411638228ac9110b4adc95"
+    },
+    {
+      "path": "scss/status.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c5f0a474e2dbd24e475d1489c306e12823ce6b",
+      "size": 274,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/37c5f0a474e2dbd24e475d1489c306e12823ce6b"
+    },
+    {
+      "path": "scss/style.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628438818133752bfd55a673fc3613e82ae25056",
+      "size": 2386,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/628438818133752bfd55a673fc3613e82ae25056"
+    },
+    {
+      "path": "scss/tags.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "312987256558af1d563568a1a07ddc2ba3f5596f",
+      "size": 183,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/312987256558af1d563568a1a07ddc2ba3f5596f"
+    },
+    {
+      "path": "scss/topic.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "724b3594548ea4c39c61f9477c9f46b0485443e4",
+      "size": 6469,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/724b3594548ea4c39c61f9477c9f46b0485443e4"
+    },
+    {
+      "path": "scss/topics_list.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799dc605839ae2720f4c2428c01a43d82827a473",
+      "size": 402,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/799dc605839ae2720f4c2428c01a43d82827a473"
+    },
+    {
+      "path": "scss/variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53da97114f0de376bea25dc59bea5b4ad99c513b",
+      "size": 168,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/53da97114f0de376bea25dc59bea5b4ad99c513b"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2e6369b4374d5ed385149ee00821e269720fcd6",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/f2e6369b4374d5ed385149ee00821e269720fcd6"
+    },
+    {
+      "path": "templates/account",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb9234122f623ce03990c25fe96316afb0593fab",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/eb9234122f623ce03990c25fe96316afb0593fab"
+    },
+    {
+      "path": "templates/account/best.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0",
+      "size": 33,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0"
+    },
+    {
+      "path": "templates/account/blocks.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e8688f4fb18ad995b84d84a41382fcb1d0451b",
+      "size": 2210,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/00e8688f4fb18ad995b84d84a41382fcb1d0451b"
+    },
+    {
+      "path": "templates/account/bookmarks.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0",
+      "size": 33,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0"
+    },
+    {
+      "path": "templates/account/categories.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03381a7afc03441bca48989fd548eddb62df5d2a",
+      "size": 1984,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/03381a7afc03441bca48989fd548eddb62df5d2a"
+    },
+    {
+      "path": "templates/account/consent.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c31aa1363146d5e42528568da44ad5ff7f9285",
+      "size": 2375,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/91c31aa1363146d5e42528568da44ad5ff7f9285"
+    },
+    {
+      "path": "templates/account/controversial.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0",
+      "size": 33,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0"
+    },
+    {
+      "path": "templates/account/downvoted.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0",
+      "size": 33,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0"
+    },
+    {
+      "path": "templates/account/edit.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44dd7b3e5988e44b23b7199c8f789f907dd7c500",
+      "size": 6842,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/44dd7b3e5988e44b23b7199c8f789f907dd7c500"
+    },
+    {
+      "path": "templates/account/edit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "018ab69ba82718c48e03ad22481b3fa776f5708f",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/018ab69ba82718c48e03ad22481b3fa776f5708f"
+    },
+    {
+      "path": "templates/account/edit/password.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e50cca46bd22c48378c86ea8233d39e1168e17a6",
+      "size": 1397,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/e50cca46bd22c48378c86ea8233d39e1168e17a6"
+    },
+    {
+      "path": "templates/account/edit/username.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eaa65e6d87a8decda889e84392adaed3d029cf5",
+      "size": 1088,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/1eaa65e6d87a8decda889e84392adaed3d029cf5"
+    },
+    {
+      "path": "templates/account/followers.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35f25ad9c991bf74857d8849d612302db9dfac4c",
+      "size": 455,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/35f25ad9c991bf74857d8849d612302db9dfac4c"
+    },
+    {
+      "path": "templates/account/following.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49745426bd339a3ae71231d533d04c2e0860750b",
+      "size": 454,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/49745426bd339a3ae71231d533d04c2e0860750b"
+    },
+    {
+      "path": "templates/account/groups.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c0c7056fa78b5884134b1c728a6235f50ef4ac3",
+      "size": 514,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/3c0c7056fa78b5884134b1c728a6235f50ef4ac3"
+    },
+    {
+      "path": "templates/account/ignored.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238b943cd5ccc5371196c3a946cfc85756db93ed",
+      "size": 34,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/238b943cd5ccc5371196c3a946cfc85756db93ed"
+    },
+    {
+      "path": "templates/account/info.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f5e834a7e830414834756fcf8070c6b68b2c73",
+      "size": 10452,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/e0f5e834a7e830414834756fcf8070c6b68b2c73"
+    },
+    {
+      "path": "templates/account/posts.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a211452cbf20f31ba0e1b466f69bb64eb2829b14",
+      "size": 1959,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/a211452cbf20f31ba0e1b466f69bb64eb2829b14"
+    },
+    {
+      "path": "templates/account/profile.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "077da1b159ed15f08e318146a780126bfafa31f9",
+      "size": 7300,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/077da1b159ed15f08e318146a780126bfafa31f9"
+    },
+    {
+      "path": "templates/account/read.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238b943cd5ccc5371196c3a946cfc85756db93ed",
+      "size": 34,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/238b943cd5ccc5371196c3a946cfc85756db93ed"
+    },
+    {
+      "path": "templates/account/sessions.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9f37b7acb799f600f0174b784a3e8de96b310f",
+      "size": 393,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ac9f37b7acb799f600f0174b784a3e8de96b310f"
+    },
+    {
+      "path": "templates/account/settings.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "087ffa93b1b3b11d75b1eba96c55acdfeb7b0837",
+      "size": 15836,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/087ffa93b1b3b11d75b1eba96c55acdfeb7b0837"
+    },
+    {
+      "path": "templates/account/tags.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0efbb0c8cbf1eee8cab44bbd0a04ad1b331c52c",
+      "size": 189,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/d0efbb0c8cbf1eee8cab44bbd0a04ad1b331c52c"
+    },
+    {
+      "path": "templates/account/theme.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66739f8453152ab1202451f47aff8cb226cbffdc",
+      "size": 1154,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/66739f8453152ab1202451f47aff8cb226cbffdc"
+    },
+    {
+      "path": "templates/account/topics.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff1f533756579d357a0c4e99fc3996cc22bae0dc",
+      "size": 2125,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ff1f533756579d357a0c4e99fc3996cc22bae0dc"
+    },
+    {
+      "path": "templates/account/uploads.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5421cd9c235599094f4be60986f7c0af40082043",
+      "size": 2008,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/5421cd9c235599094f4be60986f7c0af40082043"
+    },
+    {
+      "path": "templates/account/upvoted.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0",
+      "size": 33,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/21b7d5b1953a1b94921d6a5c70b1b158b91ed1a0"
+    },
+    {
+      "path": "templates/account/watched.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238b943cd5ccc5371196c3a946cfc85756db93ed",
+      "size": 34,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/238b943cd5ccc5371196c3a946cfc85756db93ed"
+    },
+    {
+      "path": "templates/admin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ebd678793a24f6851831b2eefaaea1252c14e9f",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/6ebd678793a24f6851831b2eefaaea1252c14e9f"
+    },
+    {
+      "path": "templates/admin/plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "160833ea52764238527e6e835347b418987d2425",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/160833ea52764238527e6e835347b418987d2425"
+    },
+    {
+      "path": "templates/admin/plugins/persona.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955f863801eb4765beacfa63f28c99846ebad800",
+      "size": 972,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/955f863801eb4765beacfa63f28c99846ebad800"
+    },
+    {
+      "path": "templates/categories.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8c8caa4d724bf714c2915d5ea46016cba8dc35",
+      "size": 1050,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ed8c8caa4d724bf714c2915d5ea46016cba8dc35"
+    },
+    {
+      "path": "templates/category.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bfa0a9506701c69e05ff1149de52ab1da21de9b",
+      "size": 2949,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/9bfa0a9506701c69e05ff1149de52ab1da21de9b"
+    },
+    {
+      "path": "templates/footer.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afafc19045d0aa038e08a0a622abf60f739bb46d",
+      "size": 282,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/afafc19045d0aa038e08a0a622abf60f739bb46d"
+    },
+    {
+      "path": "templates/header.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76854f2f2c83a3eb87a99bf4ba9fb5ae61bde147",
+      "size": 1842,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/76854f2f2c83a3eb87a99bf4ba9fb5ae61bde147"
+    },
+    {
+      "path": "templates/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "888f5315d19c79e454ffa3f9402c4898a8ea3292",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/888f5315d19c79e454ffa3f9402c4898a8ea3292"
+    },
+    {
+      "path": "templates/modules/taskbar.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d077df54c02e24d9c3dbf2c774656f746b851e2",
+      "size": 140,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/2d077df54c02e24d9c3dbf2c774656f746b851e2"
+    },
+    {
+      "path": "templates/modules/usercard.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af76ca48c7b746cdeac1d2c27db81e4a887c6fe",
+      "size": 1770,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/1af76ca48c7b746cdeac1d2c27db81e4a887c6fe"
+    },
+    {
+      "path": "templates/notifications.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "790378d49a1349706e389b38b6665ce2e1396d87",
+      "size": 1584,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/790378d49a1349706e389b38b6665ce2e1396d87"
+    },
+    {
+      "path": "templates/partials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8449fcd24bb9d5c89305b5b56253fd8f44908b84",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/8449fcd24bb9d5c89305b5b56253fd8f44908b84"
+    },
+    {
+      "path": "templates/partials/account",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6559cb4117e92af842d4e26b5ea15f578dbcc1d7",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/6559cb4117e92af842d4e26b5ea15f578dbcc1d7"
+    },
+    {
+      "path": "templates/partials/account/category-item.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1fd6d642dfc21a4783b493ad58b06f19273a29d",
+      "size": 749,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/b1fd6d642dfc21a4783b493ad58b06f19273a29d"
+    },
+    {
+      "path": "templates/partials/account/footer.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f5eaa32ef17c352844cdb2f56d00f079c791cd0",
+      "size": 6,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/7f5eaa32ef17c352844cdb2f56d00f079c791cd0"
+    },
+    {
+      "path": "templates/partials/account/header.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51732794602485718411499efa09320ed19925d",
+      "size": 2346,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/e51732794602485718411499efa09320ed19925d"
+    },
+    {
+      "path": "templates/partials/account/menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "113f07c8606dfde9a8146d01de6def10dac64fd8",
+      "size": 7191,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/113f07c8606dfde9a8146d01de6def10dac64fd8"
+    },
+    {
+      "path": "templates/partials/account/session-list.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "413c8d9c2147c076e97d2bc2f36e0191ac5c8c12",
+      "size": 714,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/413c8d9c2147c076e97d2bc2f36e0191ac5c8c12"
+    },
+    {
+      "path": "templates/partials/breadcrumbs.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee3b9d6867a12767727d258aef15924f65dd4c2b",
+      "size": 952,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ee3b9d6867a12767727d258aef15924f65dd4c2b"
+    },
+    {
+      "path": "templates/partials/buttons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02537e483ac765fbfe7c89777ce3d16aaf22840a",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/02537e483ac765fbfe7c89777ce3d16aaf22840a"
+    },
+    {
+      "path": "templates/partials/buttons/newTopic.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5307a3f576f56b3214056b2b8f2238d9dcbec5",
+      "size": 917,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/5e5307a3f576f56b3214056b2b8f2238d9dcbec5"
+    },
+    {
+      "path": "templates/partials/categories",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca281beb745ff542bfdefcea8632fc3df67b7368",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/ca281beb745ff542bfdefcea8632fc3df67b7368"
+    },
+    {
+      "path": "templates/partials/categories/item.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6953bc186ee5d4abe1a420ffdc939f354d37b3",
+      "size": 2538,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ed6953bc186ee5d4abe1a420ffdc939f354d37b3"
+    },
+    {
+      "path": "templates/partials/categories/lastpost.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60af925fc94110f100bcaba83f62393d77ff6c13",
+      "size": 1209,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/60af925fc94110f100bcaba83f62393d77ff6c13"
+    },
+    {
+      "path": "templates/partials/categories/link.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7eb09d18e95303b7097c0ffe6d3f788c77c82c",
+      "size": 215,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/2d7eb09d18e95303b7097c0ffe6d3f788c77c82c"
+    },
+    {
+      "path": "templates/partials/category",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "549d1400c26ebaf9c3f85af3dbe6624ea81fa0d6",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/549d1400c26ebaf9c3f85af3dbe6624ea81fa0d6"
+    },
+    {
+      "path": "templates/partials/category/subcategory.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da1d26420d8050283dd2e5659138b261c75a6867",
+      "size": 727,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/da1d26420d8050283dd2e5659138b261c75a6867"
+    },
+    {
+      "path": "templates/partials/category/tags.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a7511de5cca6cf56b797693406e2bf05e535e7",
+      "size": 182,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/d3a7511de5cca6cf56b797693406e2bf05e535e7"
+    },
+    {
+      "path": "templates/partials/chats-menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f691bcbcbd9efe1003f7be685b1c95438a28cdc",
+      "size": 1968,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/8f691bcbcbd9efe1003f7be685b1c95438a28cdc"
+    },
+    {
+      "path": "templates/partials/header",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "094b23e861b7c25f11854443da94246c80086e11",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/094b23e861b7c25f11854443da94246c80086e11"
+    },
+    {
+      "path": "templates/partials/header/chats.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfedd83d26783ba4ddc90b8842db7da998e9eedd",
+      "size": 2019,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/bfedd83d26783ba4ddc90b8842db7da998e9eedd"
+    },
+    {
+      "path": "templates/partials/header/notifications.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6552bd5b3c8abd3b08fb25d37fc096cb2f189c22",
+      "size": 2837,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/6552bd5b3c8abd3b08fb25d37fc096cb2f189c22"
+    },
+    {
+      "path": "templates/partials/header/search.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb065c2423995a8312991c01207ef7efda944b6",
+      "size": 1293,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/7bb065c2423995a8312991c01207ef7efda944b6"
+    },
+    {
+      "path": "templates/partials/header/user-menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c1d6f87f561f2104e60298efaba042e7f0fce7",
+      "size": 5178,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/85c1d6f87f561f2104e60298efaba042e7f0fce7"
+    },
+    {
+      "path": "templates/partials/menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58dc0e431a875760ec114f216968290552543453",
+      "size": 5647,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/58dc0e431a875760ec114f216968290552543453"
+    },
+    {
+      "path": "templates/partials/notifications_list.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe89acf8a3786df9ef217384dd04506a51c27ea",
+      "size": 2405,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/5fe89acf8a3786df9ef217384dd04506a51c27ea"
+    },
+    {
+      "path": "templates/partials/paginator.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80af074b2a8bc3c2aabb4a2042382673055182be",
+      "size": 3023,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/80af074b2a8bc3c2aabb4a2042382673055182be"
+    },
+    {
+      "path": "templates/partials/post_bar.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f66d3610d3ac0f23e2d4961fe8f93f6289ae8ba",
+      "size": 715,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/1f66d3610d3ac0f23e2d4961fe8f93f6289ae8ba"
+    },
+    {
+      "path": "templates/partials/posts_list.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6e38f4dee21dd4c791a40c863dde8de3ea74bcd",
+      "size": 288,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f6e38f4dee21dd4c791a40c863dde8de3ea74bcd"
+    },
+    {
+      "path": "templates/partials/posts_list_item.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd2c17960c1fec1ed5ae35856ee01885c804782",
+      "size": 2100,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/6dd2c17960c1fec1ed5ae35856ee01885c804782"
+    },
+    {
+      "path": "templates/partials/quick-category-search-results.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199c56756fbf4f841220475b8d4c2ee31808d8dc",
+      "size": 2084,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/199c56756fbf4f841220475b8d4c2ee31808d8dc"
+    },
+    {
+      "path": "templates/partials/quick-search-results.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9afc3aae16f50a68529a994135af078d0a30dd",
+      "size": 1248,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/6c9afc3aae16f50a68529a994135af078d0a30dd"
+    },
+    {
+      "path": "templates/partials/search",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06c15f4fa75b570db1be8499e085d89a29ebd13c",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/06c15f4fa75b570db1be8499e085d89a29ebd13c"
+    },
+    {
+      "path": "templates/partials/search/results.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed5a9ba5e5d92d0391ab8282f376b39a80882f7",
+      "size": 1560,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/eed5a9ba5e5d92d0391ab8282f376b39a80882f7"
+    },
+    {
+      "path": "templates/partials/slideout-menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d34526f841114c066cdf1fffe46efca4d64d81",
+      "size": 133,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/32d34526f841114c066cdf1fffe46efca4d64d81"
+    },
+    {
+      "path": "templates/partials/tags_list.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f4fff408ed0ba6962d91cdaf69c91ef4555b5de",
+      "size": 438,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/7f4fff408ed0ba6962d91cdaf69c91ef4555b5de"
+    },
+    {
+      "path": "templates/partials/topic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2709f29a4bbd074234619acc5d850d1463e6a439",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/2709f29a4bbd074234619acc5d850d1463e6a439"
+    },
+    {
+      "path": "templates/partials/topic/browsing-users.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b416cec282fea5a8bad81b1938eb78bbedc6ecd",
+      "size": 91,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/0b416cec282fea5a8bad81b1938eb78bbedc6ecd"
+    },
+    {
+      "path": "templates/partials/topic/crosspost.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b210e69126e153749f581cfbc31261ea31d3ebd4",
+      "size": 217,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/b210e69126e153749f581cfbc31261ea31d3ebd4"
+    },
+    {
+      "path": "templates/partials/topic/event.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d4d092d6fe23011d525b97574c96cffb4dcf51",
+      "size": 2020,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/79d4d092d6fe23011d525b97574c96cffb4dcf51"
+    },
+    {
+      "path": "templates/partials/topic/icon.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c97ae03d6329e115990a1b416c567b77d20b91f",
+      "size": 163,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/0c97ae03d6329e115990a1b416c567b77d20b91f"
+    },
+    {
+      "path": "templates/partials/topic/navigation-post.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13656d46364c8348e8ac4c9033f10d8c8641619c",
+      "size": 723,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/13656d46364c8348e8ac4c9033f10d8c8641619c"
+    },
+    {
+      "path": "templates/partials/topic/navigator.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29135d13005950921f11f3b2f8508fbb2256308f",
+      "size": 2051,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/29135d13005950921f11f3b2f8508fbb2256308f"
+    },
+    {
+      "path": "templates/partials/topic/necro-post.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd6ae8f45ed5218e51ceb8603f3f79c5a0cd0c06",
+      "size": 133,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/cd6ae8f45ed5218e51ceb8603f3f79c5a0cd0c06"
+    },
+    {
+      "path": "templates/partials/topic/post-editor.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f42ee6e832344e4bbd9264a6002d61f7a7bf744",
+      "size": 234,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/8f42ee6e832344e4bbd9264a6002d61f7a7bf744"
+    },
+    {
+      "path": "templates/partials/topic/post-menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd840a937e582a7c06580025f4a8decbb05d637d",
+      "size": 380,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/bd840a937e582a7c06580025f4a8decbb05d637d"
+    },
+    {
+      "path": "templates/partials/topic/post.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd2bdac1b8ce01f140bdd8accd442a3cf45d95ba",
+      "size": 6614,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/bd2bdac1b8ce01f140bdd8accd442a3cf45d95ba"
+    },
+    {
+      "path": "templates/partials/topic/quickreply.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f53d96839461cf5f6357abdbe4e8a622e6734db",
+      "size": 1962,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/4f53d96839461cf5f6357abdbe4e8a622e6734db"
+    },
+    {
+      "path": "templates/partials/topic/reactions.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f127e7862c805f1f4268a963d8fd28ea8445ec",
+      "size": 86,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/c8f127e7862c805f1f4268a963d8fd28ea8445ec"
+    },
+    {
+      "path": "templates/partials/topic/reply-button.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769910d901391e8b2b5a65e2a0ff3b8e0a8da7f8",
+      "size": 1539,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/769910d901391e8b2b5a65e2a0ff3b8e0a8da7f8"
+    },
+    {
+      "path": "templates/partials/topic/selection-tooltip.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f34b419b8a68fc20c0e21170dcf7c8b928a14a",
+      "size": 278,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/11f34b419b8a68fc20c0e21170dcf7c8b928a14a"
+    },
+    {
+      "path": "templates/partials/topic/sort.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "379267a83d3c3766690784a2a8c5e28f545804bf",
+      "size": 1332,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/379267a83d3c3766690784a2a8c5e28f545804bf"
+    },
+    {
+      "path": "templates/partials/topic/stats.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "245b8fc5c6a2a67d2e89720a4cdb43d8302c8cb2",
+      "size": 1943,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/245b8fc5c6a2a67d2e89720a4cdb43d8302c8cb2"
+    },
+    {
+      "path": "templates/partials/topic/tag.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "940829914f476efe1b2230d8e3dd04e4856eb021",
+      "size": 173,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/940829914f476efe1b2230d8e3dd04e4856eb021"
+    },
+    {
+      "path": "templates/partials/topic/tags.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac258ce6c9d937cc7621abe2387f6d285c58e94f",
+      "size": 66,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ac258ce6c9d937cc7621abe2387f6d285c58e94f"
+    },
+    {
+      "path": "templates/partials/topic/thumbs.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18955a50fddf4aa817e452860568895041d01fa",
+      "size": 455,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/a18955a50fddf4aa817e452860568895041d01fa"
+    },
+    {
+      "path": "templates/partials/topic/tools.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe8e9837cab1d25ceba38ad0ababff395735004",
+      "size": 416,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/dfe8e9837cab1d25ceba38ad0ababff395735004"
+    },
+    {
+      "path": "templates/partials/topic/user-status.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f9f6a6a7542ad0ed33d632835af01fe1b8b3bb",
+      "size": 607,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/58f9f6a6a7542ad0ed33d632835af01fe1b8b3bb"
+    },
+    {
+      "path": "templates/partials/topic/watch.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88464a80afa17cca49033c18ca08159228dc084d",
+      "size": 3027,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/88464a80afa17cca49033c18ca08159228dc084d"
+    },
+    {
+      "path": "templates/partials/topics_list.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d613a4e1bcb7d385466e7eafc18d520808ba3f5",
+      "size": 8730,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/8d613a4e1bcb7d385466e7eafc18d520808ba3f5"
+    },
+    {
+      "path": "templates/partials/users",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfd687c15f331e74812042eeed3b8f240bf4349a",
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/trees/dfd687c15f331e74812042eeed3b8f240bf4349a"
+    },
+    {
+      "path": "templates/partials/users/item.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c325b15fe4bf6cf89a090704848f8f6d3112150",
+      "size": 1300,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/8c325b15fe4bf6cf89a090704848f8f6d3112150"
+    },
+    {
+      "path": "templates/partials/users_list.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "163ae54ad66be44738ff4b66639d5781c74d9692",
+      "size": 557,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/163ae54ad66be44738ff4b66639d5781c74d9692"
+    },
+    {
+      "path": "templates/partials/users_list_menu.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e65ebcb6174eaa6897311bec81758a2929b8e4b",
+      "size": 965,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/3e65ebcb6174eaa6897311bec81758a2929b8e4b"
+    },
+    {
+      "path": "templates/popular.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60ca282ce252ad57b73ef9c0c1d1788e6253705b",
+      "size": 1149,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/60ca282ce252ad57b73ef9c0c1d1788e6253705b"
+    },
+    {
+      "path": "templates/recent.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1669218cbde8a186ed3eb62e6ff35dd9d3d09871",
+      "size": 1504,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/1669218cbde8a186ed3eb62e6ff35dd9d3d09871"
+    },
+    {
+      "path": "templates/tag.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9618e63a00d904cf337db895ec5b8e6558a3e921",
+      "size": 1157,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/9618e63a00d904cf337db895ec5b8e6558a3e921"
+    },
+    {
+      "path": "templates/tags.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c7f7a3cec6bd2b50baf6e64b54c5b29b563e69",
+      "size": 866,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/90c7f7a3cec6bd2b50baf6e64b54c5b29b563e69"
+    },
+    {
+      "path": "templates/top.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58a8c4959e023b57f9a553f665801444e9554df",
+      "size": 1138,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/e58a8c4959e023b57f9a553f665801444e9554df"
+    },
+    {
+      "path": "templates/topic.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4195cf7183b7211af40e9e1a3a3f48cc3b166763",
+      "size": 5236,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/4195cf7183b7211af40e9e1a3a3f48cc3b166763"
+    },
+    {
+      "path": "templates/unread.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47d50980a0a7d75c414e3a60a81a416af897d6f",
+      "size": 1440,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f47d50980a0a7d75c414e3a60a81a416af897d6f"
+    },
+    {
+      "path": "templates/users.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58e0040d094d3a743a6b6bba843d4d9a8086811d",
+      "size": 1023,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/58e0040d094d3a743a6b6bba843d4d9a8086811d"
+    },
+    {
+      "path": "templates/world.tpl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7a46e20eec398d1d2bd35841301c1cd5063f31",
+      "size": 4342,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/fa7a46e20eec398d1d2bd35841301c1cd5063f31"
+    },
+    {
+      "path": "theme.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b1e7ee3177a9ccab88060d717fdc8ddcf7ecde",
+      "size": 274,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/f6b1e7ee3177a9ccab88060d717fdc8ddcf7ecde"
+    },
+    {
+      "path": "theme.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5e8a7493a62cba025ae2129f524d341063562d",
+      "size": 25,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/ed5e8a7493a62cba025ae2129f524d341063562d"
+    },
+    {
+      "path": "yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e8d8f3c5caf01cc4ea14bb0db9db63ad779329",
+      "size": 20909,
+      "url": "https://api.github.com/repos/NodeBB/nodebb-theme-persona/git/blobs/d0e8d8f3c5caf01cc4ea14bb0db9db63ad779329"
+    }
+  ],
+  "truncated": false
+}
